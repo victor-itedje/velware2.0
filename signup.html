@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500&family=Cabin+Sketch:wght@700&family=Epilogue&family=Source+Sans+3&family=Wix+Madefor+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Sign Up</title>
+
+</head>
+<body>
+    <div class="sign-up-con">
+        <div class="welcomesignup">
+            <p>Welcome.</p>
+        </div>
+        <div class="createanaccount">
+            <p>Create an account</p>
+        </div>
+        <form>
+        <div class="allincon">
+        <div class="signupinputscon">
+            <div class="signupemailcon">
+                <p>Email</p>
+            </div>
+            <div class="signupemailinput">
+                <input type="email" placeholder="example.email@gmail.com" required />
+            </div>
+        </div>
+
+        <div class="signupinputscon">
+            <div class="signupemailcon">
+                <p>Password</p>
+            </div>
+            <div class="passwordeye">
+                            <div class="eye">
+                                <img id="eye" src="images/eye.png">
+                            </div>
+            <div class="signupemailinput">
+                <input id="emailsignuppassword" type="password" placeholder="Enter at least 8+ characters" pattern=".{8,}" required />
+            </div>
+
+            </div>
+        </div>
+
+        <div class="checkagree">
+        <div class="checkbox">
+            <input type="checkbox" required>
+        </div>
+        <div class="agree">
+            <p>I agree with terms and conditions</p>
+        </div>
+        </div>
+
+        <div class="signupbtn">
+            <input type="submit" value="Sign Up" />
+        </div>
+
+        </div>
+
+        <div class="already">
+            <p>Already have an account?  <span>Sign in</span></p>
+        </div>
+
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -843,7 +843,7 @@ display: none;
 
 
 .inputsub button {
-  height: 42px;
+  height: 40px;
   padding: 0 12px; 
   display: flex; 
   align-items: center; 
@@ -1242,6 +1242,10 @@ padding-right: 5px;
 
 .inputsub {
   width: 100%;
+}
+
+.inputsub button {
+  height: 44.5px;
 }
 
 

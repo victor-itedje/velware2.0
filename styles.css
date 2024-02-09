@@ -919,7 +919,22 @@ a .socials {
   /* overflow: hidden; */
 }
 
-@media screen and (max-width: 450px) {
+.loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background-color: #ffffffcf;
+        }
+        .loader img{
+            position: relative;
+            left: 40%;
+            top: 40%;
+        }
+
+@media screen and (max-width: 480px) {
   .header-menu {
     display: none;
   }

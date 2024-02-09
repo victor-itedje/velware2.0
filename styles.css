@@ -1015,7 +1015,7 @@ a .socials {
 }
 
 #second {
-  width: 152px;
+  width: fit-content;
 }
 
 .laptopcon {

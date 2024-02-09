@@ -34,8 +34,3 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-
-window.onload = function () {
-  //display loader on page load
-  $(".loader").fadeOut();
-};

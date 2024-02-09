@@ -10,3 +10,21 @@ function passwordVisible() {
 }
 
 passwordToggle.addEventListener("click", passwordVisible);
+
+var userDate = new Date();
+var currentHour = userDate.getHours();
+
+function callDate() {
+  if (currentHour >= 0 && currentHour <= 12) {
+    document.getElementById("hour").innerHTML =
+      "Good Morning! Ready to start your day with us?";
+  } else if (currentHour >= 12 && currentHour < 17) {
+    document.getElementById("hour").innerHTML =
+      "Good Afternoon! Refresh your day with us?";
+  } else {
+    document.getElementById("hour").innerHTML =
+      "Good Evening! Unwind your day with us?";
+  }
+}
+
+callDate();

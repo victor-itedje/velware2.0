@@ -780,6 +780,7 @@ footer {
   gap: 28px;
   display: flex;
 }
+
 .productheader {
   width: 132px;
    font-size: 20px; 
@@ -843,7 +844,7 @@ display: none;
 
 
 .inputsub button {
-  height: 40px;
+  height: 100%;
   padding: 0 12px; 
   display: flex; 
   align-items: center; 
@@ -958,7 +959,7 @@ a .socials {
 
   .navbottom {
     margin-bottom: 5px;
-     color: #358DA8FF;
+    color: #358da8ff;
      font-size: 14px;
      margin-top: 25px;
   }
@@ -993,8 +994,13 @@ a .socials {
   }
 
 .text {
-   font-size: 18px; 
+   font-size: 16px; 
    margin-top: 1px;
+   width: fit-content;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
 }
 
 .secondtext {
@@ -1038,10 +1044,14 @@ a .socials {
   flex-direction: column;
 }
 
+#secondthird {
+  width: fit-content;
+}
 .first-feature {
   margin-top: 100px;
   flex-direction: column-reverse;
   gap: 21px;
+  width: 100%;
 }
 
 .first-featureright  {
@@ -1062,6 +1072,8 @@ margin: auto;
 .first-featureleft {
   justify-content: center;
   align-items: center;
+  display: flex;
+  width: 100%;
   /* margin-left: 16px;
   margin-right: 16px; */
 }
@@ -1072,7 +1084,7 @@ margin: auto;
 
 .featurepar {
   font-size: 16px;
-  width: 320px;
+  width: 100%;
   text-align: center;
 
 }
@@ -1238,7 +1250,9 @@ padding-right: 5px;
 }
 
 #emailin {
-  width: 200px;
+  /* width: 200px; */
+  width: 135px;
+  
 }
 
 .inputsub {
@@ -1246,7 +1260,7 @@ padding-right: 5px;
 }
 
 .inputsub button {
-  height: 48px;
+  height: 100%;
 }
 
 

@@ -17,7 +17,6 @@ function navBar() {
 
 menu.addEventListener("click", navBar);
 
-
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 

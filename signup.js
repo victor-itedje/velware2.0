@@ -17,13 +17,13 @@ var currentHour = userDate.getHours();
 function callDate() {
   if (currentHour >= 0 && currentHour <= 12) {
     document.getElementById("hour").innerHTML =
-      "Good Morning! Ready to start your day with us?";
+      "Bonjour!, Good Morning, Ready to start your day with us?";
   } else if (currentHour >= 12 && currentHour < 17) {
     document.getElementById("hour").innerHTML =
-      "Good Afternoon! Refresh your day with us?";
+      "Bon Apres-Midi!, Good Afternoon, Refresh your day with us?";
   } else {
     document.getElementById("hour").innerHTML =
-      "Good Evening! Unwind your day with us?";
+      "Bon soiree!, Good Evening, Unwind your day with us?";
   }
 }
 

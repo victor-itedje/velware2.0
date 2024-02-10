@@ -131,6 +131,7 @@ input[type="checkbox"] {
 .checkagree {
   display: flex;
   margin-top: 24px;
+  gap: 0px;
 }
 
 .signupbtn {

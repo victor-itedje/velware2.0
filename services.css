@@ -1,0 +1,29 @@
+.firstsection {
+    display: flex;
+    border: 1px solid red;
+}
+
+.servicehead {
+    width: fit-content;
+    display: flex;
+    border: 1px solid red;
+}
+
+.dartimg {
+    width: 56px;
+    height: 56px;
+}
+
+.highlight1 {
+
+    height: fit-content;
+    margin: auto;
+    color: #358da8ff;
+    font-size: 48px;
+}
+
+.serviceimg {
+     width: 915px; 
+  height: 383px;
+}
+

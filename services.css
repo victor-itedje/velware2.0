@@ -1,6 +1,3 @@
-body,html {
-    background: white;
-}
 
 
 .firstsection {
@@ -158,6 +155,7 @@ body,html {
   margin: auto;
   width: fit-content;
   gap: 24px;
+  /* border: 1px solid red; */
 }
 
 #secondservice {
@@ -329,5 +327,154 @@ body,html {
 }
 
 @media screen and (max-width: 480px) {
+  .firstsection {
+    margin: 0;
+    flex-direction: column;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 33px;
+  }
+
+  .serviceimg {
+     width: 100%; 
+  height: 300px; 
+  }
+
+
+  .imgpar {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 33px;
+  }
+
+  .secsecond {
+    margin: 0;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* margin-left: 16px;
+    margin-right: 16px; */
+
+  }
+
+  .secondsection {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .fourthsection {
+    margin-top: 105px;
+  }
+  
+  .fourthsectionbody {
+    margin: 0;
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .firstservicecon {
+    width: 99%;
+    margin: 0;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: fit-content;
+    padding-bottom: 25px;
+  }
+
+  #market {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .weguide {
+    width: fit-content;
+    font-size: 18px;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 22px;
+  }
+
+  .servicehead {
+    margin: auto;
+  }
+
+  #secondservice {
+    margin-top: 56px;
+    height: fit-content;
+  }
+
+  .planningpar {
+    width: 80%;
+  }
+
+  .firstserviceimg {
+    width: 80%;
+  }
+
+  #analysis {
+    width: 80%;
+  }
+
+  .planning {
+    font-size: 18px;
+    width: fit-content;
+  }
+
+
+  #marketing {
+    width: 80%;
+    height: 300px;
+  }
+
+  #servicethird {
+    width: 80%;
+  }
+
+  #analysiscon {
+    height: fit-content;
+  }
+
+  .fourthsectionleft {
+    width: 100%;
+    height: 230px;
+  }
+
+  .fourthsectionright {
+    margin: auto;
+  }
+
+  .fifthsectionbody {
+    width: fit-content;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .fifthsectionleft {
+    width: 100%;
+    height: 350px;
+  }
+
+  .making {
+    width: fit-content;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
+  }
+
+  #serving {
+    font-size: 15px;
+  }
 
 }

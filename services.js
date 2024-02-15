@@ -15,18 +15,3 @@ function servicesType() {
 }
 
 servicesType();
-
-
-function victor() {
-     let x = "goat"
-     let i = "man"
-}
-
-function bottle() {
-     let x = "hat"
-     let i = "shoe"
-}
-
-function computer(){
-     let x = "bag"
-}

@@ -919,6 +919,10 @@ a .socials {
   /* overflow: hidden; */
 }
 
+a, .logobox {
+   color: #358da8ff;
+}
+
 
 @media screen and (max-width: 480px) {
   .header-menu {

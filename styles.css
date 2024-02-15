@@ -919,7 +919,7 @@ a .socials {
   /* overflow: hidden; */
 }
 
-a, .logobox {
+a .logobox {
    color: #358da8ff;
 }
 

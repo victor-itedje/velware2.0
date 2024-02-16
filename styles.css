@@ -21,29 +21,14 @@ html {
 
 .logobox {
   /* border: 1px solid red; */
-  width: 132px;
-  height: 44px;
+  width: 100px;
+  height: 130px;
   display: flex;
-  gap: 5px;
+  margin-top: 90px;
+  /* position: fixed;
+  left: 130px; */
 }
 
-#velwarelogoimg {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-
-.velwarelogocon {
-  width: 40px;
-  height: 40px;
-}
-
-.velware {
-  color: #358da8ff;
-  font-size: 20px;
-  height: fit-content;
-  margin: auto;
-}
 
 p {
   margin: 0;
@@ -919,8 +904,8 @@ a .socials {
   /* overflow: hidden; */
 }
 
- .logobox a {
-   color: #358da8ff;
+footer .logobox {
+  margin-top: -10px;
 }
 
 
@@ -947,6 +932,8 @@ a .socials {
 
   .logobox {
     margin-top: 10px;
+    width: 60px;
+    height: 75px;
   }
 
 
@@ -975,28 +962,17 @@ a .socials {
 
   .hamburgercon {
     display: block;
-    /* border: 1px solid red; */
     float: right;
-    /* margin-top: 6.5px; */
-    margin-top: -28px;
-
-    /* margin-right: 16px; */
+    margin-top: -45px;
   }
 
   .hamburger {
     width: 20px;
     height: 2px;
-     /* border: 1px solid red; */
      margin-bottom: 5px;
      background-color: #9095a1ff;
      transition: 0.4s;
-  }
-
-  
-
-  .velware {
-    font-size: 20px;
-  }
+  } 
 
 .text {
    font-size: 16px; 
@@ -1278,5 +1254,6 @@ padding-right: 5px;
 .change .bar3 {
   transform: translate(0, -7px) rotate(50deg);
 }
+
 
 }

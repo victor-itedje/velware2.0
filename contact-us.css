@@ -1,0 +1,136 @@
+.whitebody {
+    width: 1250px;
+    height: 608px;
+   position: absolute;
+   border-radius: 48px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.getintouch {
+    font-size: 48px; 
+  font-weight: 400; 
+  line-height: 68px; 
+  color: #171A1FFF; 
+  width: fit-content;
+  margin-bottom: 16px;
+}
+
+.advising {
+      font-size: 20px; 
+  font-weight: 400; 
+  line-height: 30px; 
+  color: #171A1FFF;
+  width: 450px;
+  margin-bottom: 16px;
+}
+
+.namein {
+    width: 212px; 
+  height: 44px; 
+  padding-left: 16px; 
+  padding-right: 16px; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 4px; /* border-m */
+  border-width: 1px; 
+  border-color: #9095A1FF; /* neutral-500 */
+  outline: none; 
+  display: block;
+}
+
+label {
+    font-size: 12px; 
+  font-weight: 700; 
+  line-height: 20px; 
+}
+
+.first {
+    width: fit-content;
+}
+
+.mail {
+    margin-bottom: 16px;
+}
+.firstnamelastname {
+    width: fit-content;
+    display: flex;
+    gap: 17px;
+    margin-bottom: 16px;
+}
+
+
+.namein:hover {
+  color: #BDC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+  border-color: #6F7787FF; /* neutral-550 */
+}
+/* focused */
+.namein:focus {
+  color: #BDC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+  border-color: #9095A1FF; /* neutral-500 */
+}
+/* disabled */
+.namein:disabled {
+  color: #BDC1CAFF; /* neutral-400 */
+  background: #FFFFFFFF; /* white */
+  border-color: #9095A1FF; /* neutral-500 */
+}
+
+.contactemail {
+    width: 475px;
+}
+
+.textarea {  
+  width: 485px; 
+  height: 113px; 
+  padding-top: 9px; 
+  padding-bottom: 9px; 
+  padding-left: 12px; 
+  padding-right: 12px; 
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px; 
+  color: #BDC1CAFF;
+}
+
+.contactinsub {
+  width: 196px; 
+  height: 52px; 
+  padding: 0 20px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 18px; 
+  font-weight: 400; 
+  line-height: 28px; 
+  color: #FFFFFFFF; /* white */
+  background: #0E252CFF; /* primary-500 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 26px; 
+  margin-top: 32px;
+}
+
+.contactinsub:hover {
+  color: #FFFFFFFF; /* white */
+  background: #1B4754FF; /* primary-450 */
+  cursor: pointer;
+}
+/* Pressed */
+.contactinsub:hover:active {
+  color: #FFFFFFFF; /* white */
+  background: #286A7EFF; /* primary-400 */
+}
+/* Disabled */
+.contactinsub:disabled {
+  opacity: 0.4; 
+}

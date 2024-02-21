@@ -23,17 +23,15 @@ function callDate() {
   if (currentHour >= 0 && currentHour <= 12 && i < txt1.length) {
     document.getElementById("hour").innerHTML += txt1.charAt(i);
     i++;
-    setTimeout(callDate, speed)
+    setTimeout(callDate, speed);
   } else if (currentHour >= 12 && currentHour < 17 && txt2.length) {
-    document.getElementById("hour").innerHTML +=
-      txt2.charAt(i);
-      i++;
-      setTimeout(callDate, speed)
+    document.getElementById("hour").innerHTML += txt2.charAt(i);
+    i++;
+    setTimeout(callDate, speed);
   } else {
-    document.getElementById("hour").innerHTML +=
-      txt3.charAt(i);
-      i++;
-      setTimeout(callDate, speed)
+    document.getElementById("hour").innerHTML += txt3.charAt(i);
+    i++;
+    setTimeout(callDate, speed);
   }
 }
 

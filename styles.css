@@ -918,7 +918,6 @@ footer .logobox {
     display: flex;
     flex-direction: column;
     background-color: #171A1FFF; 
-    justify-content: left;
     overflow: hidden;
     height: 0px;
     transition: all 0.3s;
@@ -950,10 +949,10 @@ footer .logobox {
   }
 
   .navbottom {
-    margin-bottom: 5px;
     color: #358da8ff;
      font-size: 14px;
-     margin-top: 25px;
+     width: fit-content;
+     margin: auto;
   }
 
   .buttonscon {

@@ -1,136 +1,271 @@
 .whitebody {
-    width: 1250px;
-    height: 608px;
-   position: absolute;
-   border-radius: 48px;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-    background-color: white;
-    display: flex;
-    justify-content: center;
+  width: 1250px;
+  height: 608px;
+  border-radius: 48px;
+  /* left: 50%;
+  top: 50%; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .getintouch {
-    font-size: 48px; 
-  font-weight: 400; 
-  line-height: 68px; 
-  color: #171A1FFF; 
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 68px;
+  color: #171a1fff;
   width: fit-content;
   margin-bottom: 16px;
 }
 
 .advising {
-      font-size: 20px; 
-  font-weight: 400; 
-  line-height: 30px; 
-  color: #171A1FFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #171a1fff;
   width: 450px;
   margin-bottom: 16px;
 }
 
 .namein {
-    width: 212px; 
-  height: 44px; 
-  padding-left: 16px; 
-  padding-right: 16px; 
-  font-size: 16px; 
-  font-weight: 400; 
-  line-height: 26px; 
-  background: #FFFFFFFF; /* white */
+  width: 212px;
+  height: 44px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  background: #ffffffff; /* white */
   border-radius: 4px; /* border-m */
-  border-width: 1px; 
-  border-color: #9095A1FF; /* neutral-500 */
-  outline: none; 
+  border-width: 1px;
+  border-color: #9095a1ff; /* neutral-500 */
+  outline: none;
   display: block;
 }
 
 label {
-    font-size: 12px; 
-  font-weight: 700; 
-  line-height: 20px; 
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
 }
 
 .first {
-    width: fit-content;
+  width: fit-content;
 }
 
 .mail {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .firstnamelastname {
-    width: fit-content;
-    display: flex;
-    gap: 17px;
-    margin-bottom: 16px;
+  width: fit-content;
+  display: flex;
+  gap: 17px;
+  margin-bottom: 16px;
 }
 
-
 .namein:hover {
-  color: #BDC1CAFF; /* neutral-400 */
-  background: #FFFFFFFF; /* white */
-  border-color: #6F7787FF; /* neutral-550 */
+  color: #bdc1caff; /* neutral-400 */
+  background: #ffffffff; /* white */
+  border-color: #6f7787ff; /* neutral-550 */
 }
 /* focused */
 .namein:focus {
-  color: #BDC1CAFF; /* neutral-400 */
-  background: #FFFFFFFF; /* white */
-  border-color: #9095A1FF; /* neutral-500 */
+  color: #bdc1caff; /* neutral-400 */
+  background: #ffffffff; /* white */
+  border-color: #9095a1ff; /* neutral-500 */
 }
 /* disabled */
 .namein:disabled {
-  color: #BDC1CAFF; /* neutral-400 */
-  background: #FFFFFFFF; /* white */
-  border-color: #9095A1FF; /* neutral-500 */
+  color: #bdc1caff; /* neutral-400 */
+  background: #ffffffff; /* white */
+  border-color: #9095a1ff; /* neutral-500 */
 }
 
 .contactemail {
-    width: 475px;
+  width: 475px;
 }
 
-.textarea {  
-  width: 485px; 
-  height: 113px; 
-  padding-top: 9px; 
-  padding-bottom: 9px; 
-  padding-left: 12px; 
-  padding-right: 12px; 
-  font-size: 16px; 
-  font-weight: 400; 
-  line-height: 26px; 
-  color: #BDC1CAFF;
+.textarea {
+  width: 485px;
+  height: 113px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #bdc1caff;
 }
 
 .contactinsub {
-  width: 196px; 
-  height: 52px; 
-  padding: 0 20px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  font-size: 18px; 
-  font-weight: 400; 
-  line-height: 28px; 
-  color: #FFFFFFFF; /* white */
-  background: #0E252CFF; /* primary-500 */
-  opacity: 1; 
-  border: none; 
-  border-radius: 26px; 
+  width: 196px;
+  height: 52px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffffff; /* white */
+  background: #0e252cff; /* primary-500 */
+  opacity: 1;
+  border: none;
+  border-radius: 26px;
   margin-top: 32px;
 }
 
 .contactinsub:hover {
-  color: #FFFFFFFF; /* white */
-  background: #1B4754FF; /* primary-450 */
+  color: #ffffffff; /* white */
+  background: #1b4754ff; /* primary-450 */
   cursor: pointer;
 }
 /* Pressed */
 .contactinsub:hover:active {
-  color: #FFFFFFFF; /* white */
-  background: #286A7EFF; /* primary-400 */
+  color: #ffffffff; /* white */
+  background: #286a7eff; /* primary-400 */
 }
 /* Disabled */
 .contactinsub:disabled {
-  opacity: 0.4; 
+  opacity: 0.4;
+}
+
+.locationicon {
+  width: 40px;
+  height: 40px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.locationname {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #171a1fff;
+  height: fit-content;
+  /* margin: auto; */
+}
+
+.firstlocation {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 15px;
+}
+
+.callingwoman {
+  width: 377px;
+  height: 459px;
+  margin: auto;
+  border-radius: 32px 0px 0px 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .whitebody {
+    flex-direction: column;
+    height: fit-content;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 99%;
+    padding-bottom: 50px;
+  }
+
+  .getintouch {
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  .advising {
+    font-size: 14px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  .namein {
+    width: 100px;
+  }
+
+  .firstnamelastname {
+    width: 100%;
+    gap: 5px;
+  }
+
+  .callingwoman  {
+    width: 200px;
+    height: 300px;
+  }
+
+  form {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+  }
+
+  .locations {
+    width: fit-content;
+    
+  }
+
+
+  .locationname {
+    font-size: 14px;
+  }
+
+  .contactemail {
+    width: 240px;
+  }
+
+  .textarea {
+    width: 240px;
+  }
+
+  .contactinsub {
+    margin: auto;
+    margin-top: 32px;
+  }
+
+  .locations {
+    margin: auto;
+  }
+
+  .contact-body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+  .namein {
+    width: 80px;
+  }
+
+  .contactemail {
+    width: 200px;
+  }
+
+  .textarea {
+    width: 200px;
+  }
+
+  .locationname {
+    font-size: 12px;
+  }
 }

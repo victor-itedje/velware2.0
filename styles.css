@@ -78,7 +78,9 @@ a,
   height: 15px;
   margin-top: 5px;
   margin-left: 2px;
+  transition: 0.2s ease-in-out;
 }
+
 
 .buttonscon {
   display: flex;
@@ -139,12 +141,14 @@ a,
   z-index: 1;
 }
 
+
 .featuresarrow {
   display: flex;
 }
 
 .respfeatures {
   margin: auto;
+  width: 100%;
 }
 
 .dropdown-content a {
@@ -153,11 +157,12 @@ a,
   text-decoration: none;
   display: block;
   font-size: 14px;
+  transition: 0.2s ease-in-out;
 }
 
 .dropdown-content a:hover {background: #cae6eeff;}
 
-#featuresmenu:hover .dropdown-content {display: block;}
+/* #featuresmenu:hover .dropdown-content {display: block;} */
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 

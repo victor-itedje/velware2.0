@@ -70,15 +70,14 @@ featuresMenu.addEventListener("mouseover", rotateArrow);
 featuresMenu.addEventListener("mouseout", arrrowReturn);
 featureContent.addEventListener("mouseout", rotateArrow);
 
-let responsiveFeatures = document.getElementById("responsivefeatures");
-let responsiveContent = document.getElementById("responsive-content");
 
-function responfea() {
-  if(responsiveContent.style.display === "none") {
-    responsiveContent.style.display = "block";
-  }else{
-    responsiveContent.style.display = "none";
-  }
+var myVar;
+
+function loader() {
+  myVar = setTimeout(showPage, 1000);
 }
 
-responsiveFeatures,addEventListener("click", responfea)
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}

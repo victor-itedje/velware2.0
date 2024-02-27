@@ -8,11 +8,11 @@ let respNavbar = document.getElementById("resp");
 let menu = document.getElementById("hamburgercon");
 
 function navBar() {
-  if (respNavbar.style.height === "85vh") {
+  if (respNavbar.style.height === "83vh") {
     respNavbar.style.height = "0px";
     respNavbar.style.padding = "0px";
   } else {
-    respNavbar.style.height = "85vh";
+    respNavbar.style.height = "83vh";
     respNavbar.style.padding = "20px";
   }
 }
@@ -80,4 +80,26 @@ function loader() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
+}
+
+
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }

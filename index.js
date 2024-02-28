@@ -8,11 +8,11 @@ let respNavbar = document.getElementById("resp");
 let menu = document.getElementById("hamburgercon");
 
 function navBar() {
-  if (respNavbar.style.height === "83vh") {
+  if (respNavbar.style.height === "81vh") {
     respNavbar.style.height = "0px";
     respNavbar.style.padding = "0px";
   } else {
-    respNavbar.style.height = "83vh";
+    respNavbar.style.height = "81vh";
     respNavbar.style.padding = "20px";
   }
 }

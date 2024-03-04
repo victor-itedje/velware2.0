@@ -1,3 +1,11 @@
 .eye {
     top: 315px;
 }
+
+
+@media screen and (max-width: 450px) {
+#slash {
+    top: 312px;
+}
+
+}

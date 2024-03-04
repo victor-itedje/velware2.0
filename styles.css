@@ -92,7 +92,7 @@ a,
   float: right;
 }
 
-#username {
+.nameuser {
   color: whitesmoke;
   width: fit-content; height: fit-content; margin-right: -250px; height: fit-content; margin-top: 30px;
 }
@@ -1031,6 +1031,23 @@ footer .logobox {
   text-align: center;
 }
 
+.usericon {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
+
+.nameofuserandicon {
+  /* display: flex; */
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+}
+
+.nameofuserandicon:hover {
+  cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 480px) {
@@ -1044,12 +1061,12 @@ footer .logobox {
     height: 20px;
   }
 
-  #username {
-    display: none;
-  }
-
   #myBtn {
     padding: 7px;
+  }
+
+  .nameofuserandicon {
+    margin-top: 10px;
   }
 
   #uparrow {
@@ -1087,6 +1104,9 @@ footer .logobox {
     padding-left: 16px;
     padding-right: 16px;
     height: fit-content;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 130px;
   }
 
   .navbottom {
@@ -1103,11 +1123,14 @@ footer .logobox {
   .hamburgercon {
     display: block;
     float: right;
-    margin-top: -55px;
+    /* margin-top: -55px; */
     /* width: 25px;
     height: 27px; */
+    height: 27px;
     padding: 10px;
     padding-right: 0px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
   }
 
   .hamburger {

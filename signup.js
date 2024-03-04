@@ -1,11 +1,15 @@
 var signinInput = document.querySelector(".emailsignuppassword");
 var passwordToggle = document.getElementById("eye");
+let slash = document.getElementById("slash");
+
 
 function passwordVisible() {
   if (signinInput.type === "password") {
     signinInput.type = "text";
+    slash.style.display = "none"
   } else {
     signinInput.type = "password";
+    slash.style.display = "block"
   }
 }
 

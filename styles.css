@@ -13,19 +13,20 @@ html {
 
 .container {
   /* border: 1px solid red; */
-  height: 64px;
+  height: fit-content;
   display: flex;
-  gap: 375px;
-  align-items: center;
+  gap: 220px;
+   /* align-items: center; */
   justify-content: center;
+   /* border: 1px solid red;  */
 }
 
 .logobox {
   /* border: 1px solid red; */
-  width: 100px;
-  height: 130px;
+  width: 60px;
+  height: 80px;
   display: flex;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   /* position: fixed;
   left: 130px; */
 }
@@ -45,7 +46,9 @@ p {
   font-weight: 400;
   line-height: 22px;
   opacity: 1;
-  /* border: 1px solid red; */
+   /* border: 1px solid red; */
+   margin-right: -150px;
+   margin-top: 20px;
 }
 
 .header-menu .header-menu-item {
@@ -85,8 +88,13 @@ a,
 
 .buttonscon {
   display: flex;
-  margin-top: 2px;
-  margin-right: 5px;
+  margin-top: 20px;
+  float: right;
+}
+
+#username {
+  color: whitesmoke;
+  width: fit-content; height: fit-content; margin-right: -250px; height: fit-content; margin-top: 30px;
 }
 
  .button .signup {
@@ -1036,6 +1044,10 @@ footer .logobox {
     height: 20px;
   }
 
+  #username {
+    display: none;
+  }
+
   #myBtn {
     padding: 7px;
   }
@@ -1105,6 +1117,10 @@ footer .logobox {
      background-color: #9095a1ff;
      transition: 0.4s;
   } 
+
+  #secondham {
+    width: 13px;
+  }
 
 .text {
    font-size: 16px; 

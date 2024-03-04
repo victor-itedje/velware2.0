@@ -19,7 +19,6 @@ function navBar() {
 
 menu.addEventListener("click", navBar);
 
-
 // for reveal text
 
 function reveal() {
@@ -40,8 +39,6 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-
-
 // for rotating the arrow and displaying features menu
 
 let featuresMenu = document.getElementById("features-arrow");
@@ -49,27 +46,25 @@ let arrow = document.getElementById("jsarrow");
 let featureContent = document.getElementById("drop");
 
 function rotateArrow() {
-  if(arrow.style.transform === "rotate(180deg)") {
-      arrow.style.transform = "rotate(0deg)"
-      featureContent.style.display = "none";
-  }else {
-    arrow.style.transform = "rotate(180deg)"
-      featureContent.style.display = "block";
+  if (arrow.style.transform === "rotate(180deg)") {
+    arrow.style.transform = "rotate(0deg)";
+    featureContent.style.display = "none";
+  } else {
+    arrow.style.transform = "rotate(180deg)";
+    featureContent.style.display = "block";
   }
 }
 
 function arrrowReturn() {
-  if(arrow.style.transform === "rotate(180deg)") {
+  if (arrow.style.transform === "rotate(180deg)") {
     arrow.style.transform = "rotate(0deg)";
     featureContent.style.display = "none";
   }
 }
 
-
 featuresMenu.addEventListener("mouseover", rotateArrow);
 featuresMenu.addEventListener("mouseout", arrrowReturn);
 featureContent.addEventListener("mouseout", rotateArrow);
-
 
 var myVar;
 
@@ -81,7 +76,6 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
-
 
 let mybutton = document.getElementById("myBtn");
 
@@ -103,3 +97,20 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+let profiileName = document.getElementById("username");
+
+function usernameDisplay() {
+  const verifiedMails = JSON.parse(localStorage.getItem("verifiedmail"));
+  const usersInformation = JSON.parse(localStorage.getItem("usersInfo"));
+
+  for (let i = 0; i < usersInformation.length; i++) {
+    let users = usersInformation[i];
+    if (verifiedMails === users.signupemail) {
+      profiileName.innerHTML =
+        users.signupfirstName + " " + users.signuplastName;
+    }
+  }
+}
+
+usernameDisplay();

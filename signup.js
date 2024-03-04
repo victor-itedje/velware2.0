@@ -1,4 +1,4 @@
-var signinInput = document.getElementById("emailsignuppassword");
+var signinInput = document.querySelector(".emailsignuppassword");
 var passwordToggle = document.getElementById("eye");
 
 function passwordVisible() {
@@ -37,3 +37,28 @@ function callDate() {
 
 callDate();
 
+
+let signupfirstName = document.getElementById("firstnameinput");
+let signuplastName = document.getElementById("lastnameinput");
+let signupuserEmail = document.getElementById("e-mail");
+let signupuserPassword = document.getElementById("signuppwd");
+let signupsubmitBtn = document.getElementById("signupsubmit");
+const usersArray = JSON.parse(localStorage.getItem("usersInfo")) || [];
+
+
+function userSignup(e) {
+  e.preventDefault();
+  const users = {
+    signupfirstName: signupfirstName.value,
+    signuplastName: signuplastName.value,
+    signupemail: signupuserEmail.value,
+    signuppassword: signupuserPassword.value,
+  };
+
+
+
+  usersArray.push(users);
+  localStorage.setItem("usersInfo", JSON.stringify(usersArray));
+}
+
+signupsubmitBtn.addEventListener("click", userSignup);

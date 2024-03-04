@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,7 +32,7 @@
                         <p>Email</p>
                     </div>
                     <div class="signupemailinput">
-                        <input type="email" placeholder="example.email@gmail.com" required />
+                        <input id="signinemail" type="email" placeholder="example.email@gmail.com" required />
                     </div>
                 </div>
 
@@ -44,7 +45,7 @@
                             <img id="eye" src="images/eye.png">
                         </div>
                         <div class="signupemailinput">
-                            <input id="emailsignuppassword" type="password" placeholder="Enter at least 8+ characters"
+                            <input id="signinpwd" class="emailsignuppassword" type="password" placeholder="Enter at least 8+ characters"
                                 pattern=".{8,}" required />
                         </div>
 
@@ -52,7 +53,7 @@
                 </div>
 
                 <div class="signupbtn">
-                    <input type="submit" value="Sign In" />
+                    <input id="signinsub" type="submit" value="Sign In" />
                 </div>
 
             </div>
@@ -63,7 +64,7 @@
 
     </div>
     </div>
-    <script src="signup.js"></script>
+    <script src="signin.js"></script>
 </body>
 
 </html>

@@ -25,12 +25,30 @@
         </div>
         <form>
         <div class="allincon">
+            <div class="firstnamelastname">
+                <div class="firstnameinlab">
+                <div class="firstname">
+                    <p>First Name:</p>
+                </div>
+                <div class="firstnameincon">
+                    <input id="firstnameinput" class="names" type="text" placeholder="First Name:" required />
+                </div>
+                </div>
+                <div class="firstnameinlab">
+                    <div class="firstname">
+                        <p>Last Name:</p>
+                    </div>
+                    <div class="firstnameincon">
+                        <input id="lastnameinput" class="names" type="text" placeholder="Last Name:" required />
+                    </div>
+                </div>
+            </div>
         <div class="signupinputscon">
             <div class="signupemailcon">
                 <p>Email</p>
             </div>
             <div class="signupemailinput">
-                <input type="email" placeholder="example.email@gmail.com" required />
+                <input id="e-mail" type="email" placeholder="example.email@gmail.com" required />
             </div>
         </div>
 
@@ -43,7 +61,7 @@
                                 <img id="eye" src="images/eye.png">
                             </div>
             <div class="signupemailinput">
-                <input id="emailsignuppassword" type="password" placeholder="Enter at least 8+ characters" pattern=".{8,}" required />
+                <input id="signuppwd" class="emailsignuppassword" type="password" placeholder="Enter at least 8+ characters" pattern=".{8,}" required />
             </div>
 
             </div>
@@ -59,7 +77,7 @@
         </div>
 
         <div class="signupbtn">
-            <input type="submit" value="Sign Up" />
+            <input id="signupsubmit" type="submit" value="Sign Up" />
         </div>
 
         </div>

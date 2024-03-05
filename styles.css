@@ -1034,7 +1034,7 @@ footer .logobox {
 .usericon {
   width: 30px;
   height: 30px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .nameofuserandicon {
@@ -1048,6 +1048,116 @@ footer .logobox {
   cursor: pointer;
 }
 
+.modal-content p {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  width: 200px;
+  height: 42px;
+  padding: 0 20px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffffff; /* white */
+  background: #1b4754ff; /* primary-450 */
+  opacity: 1;
+  border: none;
+  border-radius: 4px; /* border-m */
+  margin-top: 5px;
+}
+.modal-content button:hover {
+  color: #ffffffff; /* white */
+  background: #0e252cff; /* primary-500 */
+  cursor: pointer;
+}
+/* Pressed */
+.modal-content button:hover:active {
+  color: #ffffffff; /* white */
+  background: #0a1c21ff; /* primary-900 */
+}
+/* Disabled */
+.modal-content button:disabled {
+  opacity: 0.4;
+}
+
+#second {
+  background-color: #00000000;
+  border-width: 1px;
+  border-color: #358da8ff; /* primary-350 */
+  border-style: solid;
+}
+
+#second:hover {
+  color: #286a7eff; /* primary-400 */
+  background: #00000000; /* transparent */
+}
+/* Pressed */
+#second:hover:active {
+  color: #1b4754ff; /* primary-450 */
+  background: #00000000; /* transparent */
+}
+/* Disabled */
+#second:disabled {
+  opacity: 0.4;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: 0.4s ease-in-out;
+}
+
+
+/* Modal Content */
+.modal-content {
+ background: #171A1FFF; 
+  margin: auto;
+  padding: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border: 1px solid #888;
+  width: 60%;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid #358da8ff;
+  transition: 0.4s ease-in-out;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #358da8ff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+#myBtns {
+  background: none;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -1059,6 +1169,15 @@ footer .logobox {
     left: 61.5%;
     width: 20px;
     height: 20px;
+  }
+
+  #featuresbtn {
+    color: #358da8ff;
+     font-size: 20px;
+     width: fit-content;
+     margin: auto;
+     border: none;
+     background: none;
   }
 
   #myBtn {

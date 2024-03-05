@@ -1106,7 +1106,7 @@ footer .logobox {
     height: fit-content;
     /* border: 1px solid red; */
     display: flex;
-    gap: 130px;
+    gap: 135px;
   }
 
   .navbottom {
@@ -1138,7 +1138,7 @@ footer .logobox {
     height: 2px;
      margin-bottom: 5px;
      background-color: #9095a1ff;
-     transition: 0.4s;
+     transition: 0.2s;
   } 
 
   #secondham {

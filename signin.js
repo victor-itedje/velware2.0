@@ -17,7 +17,7 @@ function login(e) {
                 localStorage.setItem("verifiedmail", JSON.stringify(emailVal));
                 console.log("yes");
                 window.location.href =
-                  "file:///C:/Users/HP/Desktop/velware%202.0/index.html";
+                  "https://victor-itedje.github.io/velware2.0/";
             }else {
                 alert("Incorrect Email / Password");
                 console.log("no")

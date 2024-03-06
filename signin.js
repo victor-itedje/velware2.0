@@ -16,8 +16,7 @@ function login(e) {
                 alert("Sucessfully Logged In");
                 localStorage.setItem("verifiedmail", JSON.stringify(emailVal));
                 console.log("yes");
-                window.location.href =
-                  "https://victor-itedje.github.io/velware2.0/";
+                window.location.href = "https://velware.vercel.app/";
             }else {
                 alert("Incorrect Email / Password");
                 console.log("no")

@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react";
 
 // for toggling of the hamburger
 function myFunction(x) {

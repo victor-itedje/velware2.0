@@ -95,6 +95,12 @@ a,
 .nameuser {
   color: whitesmoke;
   width: fit-content; height: fit-content; margin-right: -250px; height: fit-content; margin-top: 30px;
+  font-size: 16px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Cabin Sketch", sans-serif;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
 }
 
  .button .signup {
@@ -1034,7 +1040,7 @@ footer .logobox {
 .usericon {
   width: 30px;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 23px;
 }
 
 .nameofuserandicon {

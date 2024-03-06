@@ -58,14 +58,16 @@
             </a>
         </div>
 
-        <div class="nameofuserandicon">
-            <div class="usericon">
-                <img width="100%" height="100%" src="images/user.png" />
+        <button id="myBtns">
+            <div class="nameofuserandicon">
+                <div class="usericon">
+                    <img width="100%" height="100%" src="images/user.png" />
+                </div>
+                <div class="nameuser">
+                    <p id="username"></p>
+                </div>
             </div>
-            <div class="nameuser">
-                <p id="username"></p>
-            </div>
-        </div>
+        </button>
     
         <div class="buttonscon">
             <div class="button">
@@ -106,6 +108,20 @@
     
     </div>
 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img style="margin-left: 8px;" width="80px" height="80px" src="images/user.png" />
+            <p id="profile-cardname"></p>
+            <p id="profilecard-email"></p>
+            <button id="existing">Existing Requests</button>
+            <button id="second">Sign Out</button>
+        </div>
+    
+    </div>
     <div class="contact-body">
     <div class="whitebody">
         <div class="contactinfo">
@@ -272,5 +288,6 @@
     </div>
     <script src="https://kit.fontawesome.com/0f56aea66f.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>

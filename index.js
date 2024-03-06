@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 // for toggling of the hamburger
 function myFunction(x) {
   x.classList.toggle("change");
@@ -109,19 +111,17 @@ function usernameDisplay() {
     if (verifiedMails === users.signupemail) {
       profiileName.innerHTML =
         users.signupfirstName + " " + users.signuplastName;
-        document.getElementById("profile-cardname").innerHTML =
-          users.signupfirstName + " " + users.signuplastName;
-          document.getElementById("profilecard-email").innerHTML =
-            users.signupemail;
-            document.getElementById("signupbtn").style.display = "none";
-            document.getElementById("signout").textContent = "Sign Out";
+      document.getElementById("profile-cardname").innerHTML =
+        users.signupfirstName + " " + users.signuplastName;
+      document.getElementById("profilecard-email").innerHTML =
+        users.signupemail;
+      document.getElementById("signupbtn").style.display = "none";
+      document.getElementById("signout").textContent = "Sign Out";
     }
   }
 }
 
 usernameDisplay();
-
-
 
 var modal = document.getElementById("myModal");
 
@@ -147,4 +147,3 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
-

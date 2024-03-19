@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="features.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500&family=Cabin+Sketch:wght@700&family=Epilogue&family=Source+Sans+3&family=Wix+Madefor+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/VELware icon.ico">
+    <title>Features</title>
+</head>
+<body onload="loader()" style="margin:0;">
+    <div><img id="loader" src="images/load-7671_128.gif" /></div>
+    <div id="myDiv" class=".animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img id="uparrow" src="images/up-arrow.png"
+                width="30px" height="30px" /></button>
+        <div class="container">
+            <div class="logobox">
+                <a href="index.html"> <img width="100%" height="100%"
+                        src="images/Logo Files/For Web/png/Color logo - no background.png" /></a>
+            </div>
+
+            <div class="header-menu">
+                <div class="header-menu-item">
+                    <a href="index.html">
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div id="featuresmenu" class="header-menu-item">
+                    <div id="features-arrow" class="featuresarrow">
+                        <div>
+                            <p>Features</p>
+                        </div>
+                        <div id="jsarrow" class="downarrow"><img id="down-arrow" width="100%" height="100%"
+                                src="images/down-arrow.png"></div>
+                    </div>
+                    <div id="drop" class="dropdown-content">
+                        <a href="#">UI/UX Design</a>
+                        <a href="#">Websites</a>
+                        <a href="#">Web Apps</a>
+                    </div>
+                </div>
+                <a href="services.html">
+                    <div class="header-menu-item">
+                        <p>Services</p>
+                    </div>
+                </a>
+                <div class="header-menu-item">
+                    <p>About</p>
+                </div>
+                <a href="contact-us.html">
+                    <div class="header-menu-item">
+                        <p>Contact</p>
+                    </div>
+                </a>
+            </div>
+
+            <button id="myBtns">
+                <div class="nameofuserandicon">
+                    <div class="usericon">
+                        <img width="100%" height="100%" src="images/user.png" />
+                    </div>
+                    <div class="nameuser">
+                        <p id="username"></p>
+                    </div>
+                </div>
+            </button>
+
+
+
+            <div class="buttonscon">
+                <div class="button">
+                    <a href="signin.html"><button>Sign in</button></a>
+                </div>
+                <div class="button">
+                    <a href="signup.html" target="_blank"><button class="signup">Sign Up</button></a>
+                </div>
+            </div>
+            <div class="hamburgercon" id="hamburgercon" onclick="myFunction(this)">
+                <div class="hamburger bar1"></div>
+                <div id="secondham" class="hamburger bar2"></div>
+                <div class="hamburger bar3"></div>
+            </div>
+
+
+        </div>
+        <div class="resp" id="resp">
+
+            <div class="navbottom"> <a href="index.html" class="active">Home</a></div>
+            <div class="navline"></div>
+            <div class="respfeatures" id="featuresmenu">
+                <div id="responsivefeatures" class="navbottom"> <a>Features &#x2193</a></div>
+                <div class="dropdown-content">
+                    <a href="#">UI/UX Design</a>
+                    <a href="#">Websites</a>
+                    <a href="#">Web Apps</a>
+                </div>
+            </div>
+            <div class="navline"></div>
+            <div class="navbottom"><a href="services.html">Services</a></div>
+            <div class="navline"></div>
+            <div class="navbottom"><a>About</a></div>
+            <div class="navline"></div>
+            <div class="navbottom"> <a href="contact-us.html">Contact</a></div>
+            <div class="navline"></div>
+            <div id="signout" class="navbottom"> <a target="_blank" href="signin.html">Sign In</a></div>
+
+
+        </div>
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img style="margin-left: 8px;" width="80px" height="80px" src="images/user.png" />
+                <p id="profile-cardname"></p>
+                <p id="profilecard-email"></p>
+                <button id="existing">Existing Requests</button>
+                <button id="second">Sign Out</button>
+            </div>
+
+        </div>
+
+        <div class="featurespagehead">
+            <p>Discover Our Numerous Features</p>
+        </div>
+        <div class="featurespagepar">
+            <p>Every Feature built for VELware begins with one goal: Help our customers achieve more success with less effort</p>
+        </div>
+
+        <div class="imgpad">
+        
+            <div class="laptopcon">
+                <img id="laptopimg" src="images/features phone.jpg">
+            </div>
+        
+        </div>
+        
+        
+    
+        
+        <div class="all">
+        
+            <div class="first-feature reveal">
+                <div class="first-featureleft">
+                    <div class="featurehead">
+                        <p>UI/UX Design</p>
+                    </div>
+                    <div class="featurepar">
+                        <p>UI (User Interface): This determines what you can do in the application by touching, clicking,
+                            speaking to, and so on.</p>
+                    </div>
+                    <div id="featuresbtn" class="thirdbuttons">
+                        <div><button id="uibutton">Try Now</button></div>
+                    </div>
+        
+                </div>
+        
+                <div class="first-featureright">
+                    <div id="firstphonecon">
+                        <img id="firstphoneimg" src="images/secondphone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="second-feature reveal">
+                <div class="second-featureleft">
+                    <div class="secondphonecon">
+                        <img id="secondphoneimg" src="images/iphone.png">
+                    </div>
+                </div>
+        
+                <div class="second-featureright">
+                    <div class="secondfeaturehead">
+                        <p>Web Apps</p>
+                    </div>
+                    <div class="secondfeaturepar">
+                        <p>Web app development encompasses various interactive elements like sliders, pop-up forms, and
+                            custom interactive
+                            maps.</p>
+                    </div>
+                    <div id="featuresbtn" class="secondthirdbuttons">
+                        <div><button>Try Now</button></div>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <div class="third-feature reveal">
+                <div class="third-featureleft">
+                    <div class="thirdfeaturehead">
+                        <p>Websites</p>
+                    </div>
+                    <div class="thirdfeaturepar">
+                        <p>Web development involves the creation and maintenance of websites,
+                            Build a Website for your business/organization today!</p>
+                    </div>
+        
+                    <div id="featuresbtn" class="fourthbuttons">
+                        <div><button>Try Now</button></div>
+                    </div>
+                </div>
+        
+                <div class="third-featureright">
+                    <img id="secondlaptopimg" src="images/secondlaptop.png">
+                </div>
+            </div>
+        
+            <div class="getstartedcon reveal">
+                <div class="getstarted">
+                    <div class="getstartedhead">
+                        <p>Explore More</p>
+                    </div>
+                    <div class="getstartedpar">
+                        <p>Building reliable software is not a one-step process, but rather an ongoing commitment
+                            throughout the software development lifecycle. Building your delicate projects should
+                            be handled by the best.
+                    </div>
+                    <div class="getstartedbutton">
+                        <a href="signup.html"><button id="demo" >Request a demo</button></a>
+                    </div>
+                </div>
+        
+                <div class="getstartedimgcon">
+                    <img id="getstartedimg" src="images/lastphone.jpg">
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div class="line">
+        
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>

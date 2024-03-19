@@ -242,7 +242,7 @@ span {
   width: fit-content; height: fit-content; position: absolute; top: 377.4px; left: 465px; color: gray; font-weight: 300;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   body {
     padding-top: 20px;
     padding-bottom: 20px;

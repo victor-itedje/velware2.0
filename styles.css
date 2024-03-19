@@ -1235,7 +1235,7 @@ footer .logobox {
     height: fit-content;
     /* border: 1px solid red; */
     display: flex;
-    gap: 135px;
+    gap: 120px;
   }
 
   .navbottom {
@@ -1270,7 +1270,11 @@ footer .logobox {
      transition: 0.2s;
   } 
 
-  #secondham {
+  #hamburgertwo {
+    width: 16px;
+  }
+
+  #hamburgerthree {
     width: 13px;
   }
 

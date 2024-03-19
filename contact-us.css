@@ -268,4 +268,10 @@ label {
   .locationname {
     font-size: 12px;
   }
+
+  .container {
+    border: 1px solid red;
+    overflow: hidden;
+    gap: 10px;
+  }
 }

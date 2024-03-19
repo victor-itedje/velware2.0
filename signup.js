@@ -58,6 +58,7 @@ function userSignup(e) {
     signupemail: signupuserEmail.value,
     signuppassword: signupuserPassword.value,
   };
+window.location.href = "https://velware.vercel.app/signin.html"
 
 
 

@@ -1,7 +1,7 @@
-
 // for toggling of the hamburger
 function myFunction(x) {
   x.classList.toggle("change");
+  document.getElementById("hamburgerthree").style.width = "20px"
 }
 
 //for menu display

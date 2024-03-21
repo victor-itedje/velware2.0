@@ -1550,13 +1550,15 @@ padding-right: 5px;
 
 
 .change .bar1 {
-  transform: translate(0, 7px) rotate(-50deg);
+  transform: translate(0, 8px) rotate(-41deg);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-  transform: translate(0, -7px) rotate(50deg);
+  transform: translate(0, -10px) rotate(40deg);
+  margin-top: 21px;
+  margin-left: 1px;
 }
 
 
